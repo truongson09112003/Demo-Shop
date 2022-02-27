@@ -353,6 +353,7 @@ body {
 
 .header__notify-footer {
     display: flex;
+    overflow: hidden;
 }
 
 .header__notify-foote-btn {
@@ -362,6 +363,8 @@ body {
     color: var(--text-color);
     padding: 8px 16px;
     text-align: center;
+    /* position: fixed;
+    bottom: 0; */
     font-size: 1.4rem;
 }
 
@@ -377,6 +380,14 @@ body {
     background-color: var(--white-color);
     overflow: hidden;
     /* display: none; */
+}
+
+.auth-form.remove {
+    display: none;
+}
+
+.js-remove-modal.remove {
+    display: none
 }
 
 .auth-form__container {
@@ -791,7 +802,7 @@ body {
 
 .header__search-btn-icon {
     font-size: 1.4rem;
-    color: var(--primary--color);
+    color: var(--white-color);
 }
 
 .header__search-selec:hover .header__search-option {
@@ -915,6 +926,7 @@ body {
     text-decoration: none;
     line-height: 38px;
     display: block;
+    color: #000;
 }
 
 
